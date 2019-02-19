@@ -14,4 +14,4 @@ RUN echo cache-busting-0
 RUN go get -u -d github.com/yunabe/easycsv && lgo installpkg github.com/yunabe/easycsv
 
 # Change the working directory
-WORKDIR $GOPATH/src/github.com/yunabe/easycsv
+WORKDIR $GOPATH/src/github.com/yunabe/easycsv/examples
